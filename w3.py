@@ -1,6 +1,7 @@
-def grams_to_ounces(grams):
-    ounces = 28.3495231 * grams
-    print(ounces)
+def farenheit_to_celcium(fr):
+    c = (5 / 9) * (fr - 32)
+    print(c)
 
-grams = int(input())
-grams_to_ounces(grams)
+fr = int(input())
+farenheit_to_celcium(fr)
+
